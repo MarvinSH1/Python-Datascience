@@ -1,6 +1,6 @@
 # #Entrenando la programación
 # 1 - Escribe un programa que pida a la persona usuaria que proporcione dos números y muestre el número más grande.
-""" numero1=int(input("Ingresa el primer numero: "))
+numero1=int(input("Ingresa el primer numero: "))
 numero2=int(input("Ingresa el segundo numero: "))
 if numero1>numero2:
     print("El numero mayor esx:",numero1)
@@ -84,10 +84,10 @@ numero=float(input("Ingresa un numero: "))
 if numero.is_integer():
     print("El numero es entero")
 else:
-    print("El numero es decimal") """
+    print("El numero es decimal")
 
 #10 - Un programa debe ser escrito para leer dos números y luego preguntar a la persona usuaria qué operación desea realizar. El resultado de la operación debe incluir información sobre el número, si es par o impar, positivo o negativo, e entero o decimal.
-""" numero1=float(input("Ingresa el primer numero: "))
+numero1=float(input("Ingresa el primer numero: "))
 numero2=float(input("Ingresa el segundo numero: "))
 
 operacion=input("¿Qué operación deseas realizar? (suma, resta, multiplicación, división): ").lower()
@@ -110,14 +110,14 @@ elif(operacion == "división"):
         print("No se puede dividir entre cero")
 else:
     print("Operación no válida")
- """
+
 """11 - Escribe un programa que pida a la persona usuaria tres números que representan los lados de un triángulo. El programa debe informar si los valores pueden utilizarse para formar un triángulo y, en caso afirmativo, si es equilátero, isósceles o escaleno. Ten en cuenta algunas sugerencias:
 Tres lados forman un triángulo cuando la suma de cualesquiera dos lados es mayor que el tercero;
 Triángulo Equilátero: tres lados iguales;
 Triángulo Isósceles: dos lados iguales;
 Triángulo Escaleno: tres lados diferentes.
 """
-""" print("Ingresa los lados de un triángulo")
+print("Ingresa los lados de un triángulo")
 lado1=float(input("Ingresa el primer lado: "))
 lado2=float(input("Ingresa el segundo lado: "))
 lado3=float(input("Ingresa el tercer lado: "))
@@ -129,14 +129,14 @@ if (lado1+lado2>lado3) and (lado1+lado3>lado2) and (lado2+lado3>lado1):
         print("El triángulo es isósceles")
     else:
         print("El triángulo es escaleno")
- """
+
 
 """
 12 - Un establecimiento está vendiendo combustibles con descuentos variables. Para el etanol, si la cantidad comprada es de hasta 15 litros, el descuento será del 2% por litro. En caso contrario, será del 4% por litro. Para el diésel, si la cantidad comprada es de hasta 15 litros, el descuento será del 3% por litro. En caso contrario, será del 5% por litro. El precio por litro de diésel es de R$ 2,00 y el precio por litro de etanol es de R$ 1,70. Escribe un programa que lea la cantidad de litros vendidos y el tipo de combustible (E para etanol y D para diésel) y calcule el valor a pagar por el cliente. Ten en cuenta algunas sugerencias:
 El valor del descuento será el producto del precio por litro, la cantidad de litros y el valor del descuento.
 El valor a pagar por un cliente será el resultado de la multiplicación del precio por litro por la cantidad de litros menos el valor del descuento resultante del cálculo.
 """
-""" precioLitroDiesel=2.00
+precioLitroDiesel=2.00
 precioLitroEtanol=1.70
 
 print("Bienvenido a la estación de servicio")
@@ -166,7 +166,7 @@ else:
      print("Tipo de combustible no válido")
 
     
- """
+
 """
 13 - En una empresa de venta de bienes raíces, debes crear un código que analice los datos de ventas anuales para ayudar a la dirección en la toma de decisiones. El código debe recopilar los datos de cantidad de ventas durante los años 2022 y 2023 y calcular la variación porcentual. A partir del valor de la variación, se deben proporcionar las siguientes sugerencias:
 Para una variación superior al 20%: bonificación para el equipo de ventas.
